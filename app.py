@@ -8,9 +8,4 @@ txt = st.text_area("""Hello everyone, about fentreactor69000; wanted to clear so
 - 🪿👑
 """, height=200, key="msg")
 
-if txt.strip():
-    st.markdown("---")
-    st.markdown(
-        f'<p style="font-size: 1.4rem; line-height: 1.7;">{txt}</p>',
-        unsafe_allow_html=True
-    )
+
